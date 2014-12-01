@@ -1,0 +1,8 @@
+﻿<Window x:Class="kaorun.samples.SimpleMVVM.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Simple MVVM sample app" Height="480" Width="640">
+    <Grid>
+        <Frame Source="IndexPage.xaml"></Frame>
+    </Grid>
+</Window>
