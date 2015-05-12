@@ -8,9 +8,11 @@
          </Style>
         <Style TargetType="TextBox">
             <Setter Property="FontSize" Value="24"/>
+            <Setter Property="Margin" Value="4,2"/>
         </Style>
         <Style TargetType="Button">
             <Setter Property="FontSize" Value="24"/>
+            <Setter Property="Margin" Value="4,2"/>
         </Style>
     </Application.Resources>
 </Application>

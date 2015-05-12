@@ -4,7 +4,7 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       mc:Ignorable="d" 
-      d:DesignHeight="300" d:DesignWidth="300"
+      d:DesignHeight="420" d:DesignWidth="420"
 	Title="CommandPage">
 
     <Grid>
@@ -17,7 +17,7 @@
             <TextBox Text="{Binding FullName,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
             <TextBlock Text="Age:"/>
             <TextBox Text="{Binding Age,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
-            <StackPanel Orientation="Horizontal" Margin="0,5">
+            <StackPanel Orientation="Horizontal">
                 <Button Command="{Binding IncrementAge}">Age++</Button>
                 <Button Command="{Binding DecrementAge}">Age--</Button>
             </StackPanel>
