@@ -8,9 +8,7 @@
         WindowState="Maximized"
         >
     <Grid Name="LayoutRoot">
-        <Canvas Name="bkgCanvas"  >
-            <Rectangle Name="selectionRect" Fill="CornflowerBlue" Opacity="0.3"/>
-        </Canvas>
+        <Rectangle Name="selectionRect" Fill="CornflowerBlue" Opacity="0.3" Width="0"/>
         <Border Name="bkgRect"  Background="CornflowerBlue" Opacity="0.01"/>
     </Grid>
 </Window>

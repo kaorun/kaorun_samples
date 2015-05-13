@@ -34,6 +34,5 @@ namespace kaorun.samples
         // Using a DependencyProperty as the backing store for Captured.  This enables animation, styling, binding, etc...
         public static readonly DependencyProperty CapturedProperty =
             DependencyProperty.Register("Captured", typeof(BitmapSource), typeof(MainWindow), new PropertyMetadata(null));
-
     }
 }
